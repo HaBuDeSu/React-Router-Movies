@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import SavedList from './Movies/SavedList';
 import MovieList from './Movies/MovieList';
 import Movie from './Movies/Movie';
+import {BrowserRouter as Router} from "react-router-dom";
+import {Route} from "react-router-dom"
 
 export default class App extends Component {
   constructor() {
